@@ -12,7 +12,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     profile:{
-      avatar:'/img/avatar.png',
+      avatar:'/img/88a1bfba505056381f422e4039cabc8.png',
       circle:true,
       layout:'right',
     },
