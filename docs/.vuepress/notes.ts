@@ -9,7 +9,7 @@ const demoNote = defineNoteConfig({
 const extendhashtable=defineNoteConfig({
   dir: 'Extendible_Hash_Table',
   link: '/Extendible_Hash_Table',
-  sidebar: ['', '/基于可拓展哈希表的索引结构的实现.md'],
+  sidebar: ['', '基于可拓展哈希表的索引结构的实现'],
 })
 
 export const notes = defineNotesConfig({
