@@ -13,7 +13,7 @@ const extendhashtable=defineNoteConfig({
 })
 
 export const notes = defineNotesConfig({
-  dir: '/notes/',
+  dir: 'notes',
   link: '/',
   notes: [demoNote,extendhashtable],
 })
