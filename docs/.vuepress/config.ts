@@ -6,13 +6,13 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'yybigfish',
-  description: ' The world shakes your confidence, but the author is dead',
+  description: '世界让你自信动摇但作者已死了',
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
     profile:{
-      avatar:'../img/avatar.png',
+      avatar:'/img/avatar.png',
       circle:true,
       layout:'right',
     },
