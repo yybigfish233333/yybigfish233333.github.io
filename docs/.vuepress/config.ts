@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { notes } from './notes'
 
 export default defineUserConfig({
   base: '/',
@@ -11,6 +12,7 @@ export default defineUserConfig({
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
+    notes,
     profile:{
       avatar:'/img/avatar.png',
       circle:true,
